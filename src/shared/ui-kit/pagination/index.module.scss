@@ -1,0 +1,45 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  .pageButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+
+    &:hover {
+      background-color: #000000;
+      border-color: #000000;
+      color: #FFFFFF;
+
+      svg {
+        fill: #FFFFFF;
+        path {
+          fill: #FFFFFF;
+        }
+      }
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+
+  .active {
+    background-color: #000000;
+    border-color: #000000;
+    color: #FFFFFF;
+  }
+}

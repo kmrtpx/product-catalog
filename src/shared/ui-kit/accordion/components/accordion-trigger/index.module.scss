@@ -1,0 +1,58 @@
+.accordionHeader {
+  display: flex;
+}
+
+.accordionTrigger {
+  padding: 20px 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 1;
+  color: #000000;
+  background: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+
+  &:hover {
+    color: #767677;
+  }
+
+  &[data-state="open"] {
+    .accordionChevron {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.accordionChevron {
+  color: #000000;
+  transition: transform 300ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.iconContainer {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}

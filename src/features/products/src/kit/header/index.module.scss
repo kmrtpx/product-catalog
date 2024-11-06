@@ -1,0 +1,29 @@
+.Main {
+  max-width: 1280px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  border-bottom: 2px solid #000000;
+
+}
+
+.filterAndSort {
+  padding: 0 15px;
+  min-height: 40px;
+  border: 1px solid #000000;
+  background: none;
+  cursor: pointer;
+  font-weight: bold;
+
+  &:hover {
+    color: #767677;
+  }
+}
+

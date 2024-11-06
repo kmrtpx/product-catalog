@@ -1,0 +1,36 @@
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    & > .label {
+      color: #000000;
+    }
+  }
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  background-color: #767677;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.indicator {
+  width: 16px;
+  height: 16px;
+  background-color: #000000;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+.label {
+  color: #767677;
+  margin-left: 8px;
+  font-size: 16px;
+}

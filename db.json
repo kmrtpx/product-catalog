@@ -1,0 +1,460 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "brand": "Brand C",
+      "price": 99.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3ab9ba27b8b54d62bfeebe70e6638ac9_9366/Ultraboost_5X_Shoes_Blue_JI3022_01_standard.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "brand": "Brand B",
+      "price": 49.99,
+      "rating": 4.0,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7970155f8c1c4b0bbac9b79eeb32960d_9366/Anthony_Edwards_1_Light_Purple_Mid_Basketball_Shoes_Black_IG6670_01_00_standard.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "brand": "Brand C",
+      "price": 59.99,
+      "rating": 4.2,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/107e883f06e74531a067ee86b3467f5c_9366/Samba_OG_Shoes_Blue_ID2056_01_standard.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "brand": "Brand D",
+      "price": 499.99,
+      "rating": 4.8,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3552b22b735c4855a9dda49415f9a611_9366/Terrex_Free_Hiker_2.0_Gore-Tex_Hiking_Shoes_Black_IH3524_HM1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Leather Jacket",
+      "category": "Clothing",
+      "brand": "Brand E",
+      "price": 199.99,
+      "rating": 4.7,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Fitness Tracker",
+      "category": "Electronics",
+      "brand": "Brand F",
+      "price": 69.99,
+      "rating": 4.3,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Electric Toothbrush",
+      "category": "Health",
+      "brand": "Brand G",
+      "price": 29.99,
+      "rating": 4.4,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Laptop",
+      "category": "Electronics",
+      "brand": "Brand H",
+      "price": 899.99,
+      "rating": 4.7,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3552b22b735c4855a9dda49415f9a611_9366/Terrex_Free_Hiker_2.0_Gore-Tex_Hiking_Shoes_Black_IH3524_HM1.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sunglasses",
+      "category": "Accessories",
+      "brand": "Brand I",
+      "price": 29.99,
+      "rating": 4.1,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Gaming Console",
+      "category": "Electronics",
+      "brand": "Brand J",
+      "price": 299.99,
+      "rating": 4.6,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Desk Chair",
+      "category": "Furniture",
+      "brand": "Brand B",
+      "price": 129.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Backpack",
+      "category": "Accessories",
+      "brand": "Brand G",
+      "price": 49.99,
+      "rating": 4.3,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3552b22b735c4855a9dda49415f9a611_9366/Terrex_Free_Hiker_2.0_Gore-Tex_Hiking_Shoes_Black_IH3524_HM1.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Coffee Maker",
+      "category": "Home Appliances",
+      "brand": "Brand A",
+      "price": 89.99,
+      "rating": 4.6,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Mountain Bike",
+      "category": "Sports",
+      "brand": "Brand E",
+      "price": 349.99,
+      "rating": 4.4,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Perfume",
+      "category": "Beauty",
+      "brand": "Brand B",
+      "price": 59.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Yoga Mat",
+      "category": "Sports",
+      "brand": "Brand C",
+      "price": 19.99,
+      "rating": 4.3,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Wireless Charger",
+      "category": "Electronics",
+      "brand": "Brand B",
+      "price": 39.99,
+      "rating": 4.2,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7970155f8c1c4b0bbac9b79eeb32960d_9366/Anthony_Edwards_1_Light_Purple_Mid_Basketball_Shoes_Black_IG6670_01_00_standard.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Stylish Sneakers",
+      "category": "Footwear",
+      "brand": "Brand C",
+      "price": 89.99,
+      "rating": 4.4,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/107e883f06e74531a067ee86b3467f5c_9366/Samba_OG_Shoes_Blue_ID2056_01_standard.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Casual T-Shirt",
+      "category": "Clothing",
+      "brand": "Brand E",
+      "price": 24.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Vitamins",
+      "category": "Health",
+      "brand": "Brand F",
+      "price": 19.99,
+      "rating": 4.3,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Elegant Watch",
+      "category": "Accessories",
+      "brand": "Brand A",
+      "price": 149.99,
+      "rating": 4.6,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Ergonomic Office Chair",
+      "category": "Furniture",
+      "brand": "Brand H",
+      "price": 299.99,
+      "rating": 4.7,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Electric Kettle",
+      "category": "Home Appliances",
+      "brand": "Brand D",
+      "price": 39.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Gym Bag",
+      "category": "Sports",
+      "brand": "Brand G",
+      "price": 34.99,
+      "rating": 4.2,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Nail Polish Set",
+      "category": "Beauty",
+      "brand": "Brand B",
+      "price": 29.99,
+      "rating": 4.4,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Portable Power Bank",
+      "category": "Electronics",
+      "brand": "Brand A",
+      "price": 29.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Casual Loafers",
+      "category": "Footwear",
+      "brand": "Brand D",
+      "price": 69.99,
+      "rating": 4.3,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3552b22b735c4855a9dda49415f9a611_9366/Terrex_Free_Hiker_2.0_Gore-Tex_Hiking_Shoes_Black_IH3524_HM1.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Winter Coat",
+      "category": "Clothing",
+      "brand": "Brand F",
+      "price": 149.99,
+      "rating": 4.6,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 29,
+      "name": "First Aid Kit",
+      "category": "Health",
+      "brand": "Brand G",
+      "price": 34.99,
+      "rating": 4.4,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Leather Wallet",
+      "category": "Accessories",
+      "brand": "Brand C",
+      "price": 49.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Standing Desk",
+      "category": "Furniture",
+      "brand": "Brand H",
+      "price": 249.99,
+      "rating": 4.8,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Electric Blender",
+      "category": "Home Appliances",
+      "brand": "Brand E",
+      "price": 59.99,
+      "rating": 4.6,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Tennis Racket",
+      "category": "Sports",
+      "brand": "Brand F",
+      "price": 89.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3552b22b735c4855a9dda49415f9a611_9366/Terrex_Free_Hiker_2.0_Gore-Tex_Hiking_Shoes_Black_IH3524_HM1.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Face Cream",
+      "category": "Beauty",
+      "brand": "Brand B",
+      "price": 39.99,
+      "rating": 4.4,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "brand": "Brand C",
+      "price": 199.99,
+      "rating": 4.6,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Basketball Shoes",
+      "category": "Footwear",
+      "brand": "Brand D",
+      "price": 89.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3552b22b735c4855a9dda49415f9a611_9366/Terrex_Free_Hiker_2.0_Gore-Tex_Hiking_Shoes_Black_IH3524_HM1.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Graphic T-Shirt",
+      "category": "Clothing",
+      "brand": "Brand E",
+      "price": 29.99,
+      "rating": 4.4,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Fitness Mat",
+      "category": "Health",
+      "brand": "Brand A",
+      "price": 24.99,
+      "rating": 4.3,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Sunglasses Case",
+      "category": "Accessories",
+      "brand": "Brand B",
+      "price": 19.99,
+      "rating": 4.2,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Office Desk",
+      "category": "Furniture",
+      "brand": "Brand H",
+      "price": 349.99,
+      "rating": 4.7,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3552b22b735c4855a9dda49415f9a611_9366/Terrex_Free_Hiker_2.0_Gore-Tex_Hiking_Shoes_Black_IH3524_HM1.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Air Fryer",
+      "category": "Home Appliances",
+      "brand": "Brand C",
+      "price": 119.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Running Gloves",
+      "category": "Sports",
+      "brand": "Brand G",
+      "price": 14.99,
+      "rating": 4.3,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Makeup Brush Set",
+      "category": "Beauty",
+      "brand": "Brand I",
+      "price": 39.99,
+      "rating": 4.6,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Portable Charger",
+      "category": "Electronics",
+      "brand": "Brand B",
+      "price": 29.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3552b22b735c4855a9dda49415f9a611_9366/Terrex_Free_Hiker_2.0_Gore-Tex_Hiking_Shoes_Black_IH3524_HM1.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Casual Sneakers",
+      "category": "Footwear",
+      "brand": "Brand A",
+      "price": 59.99,
+      "rating": 4.4,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Winter Coat",
+      "category": "Clothing",
+      "brand": "Brand D",
+      "price": 149.99,
+      "rating": 4.8,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Essential Oil Diffuser",
+      "category": "Health",
+      "brand": "Brand F",
+      "price": 39.99,
+      "rating": 4.5,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3552b22b735c4855a9dda49415f9a611_9366/Terrex_Free_Hiker_2.0_Gore-Tex_Hiking_Shoes_Black_IH3524_HM1.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Stylish Backpack",
+      "category": "Accessories",
+      "brand": "Brand C",
+      "price": 79.99,
+      "rating": 4.6,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4f767f98c4f41ada75bc02c07a4f979_9366/NMD_R1_Shoes_Purple_ID9146_01_standard.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Gaming Chair",
+      "category": "Furniture",
+      "brand": "Brand E",
+      "price": 199.99,
+      "rating": 4.7,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e867b7974024226ac6a3cf132c39357_9366/Adistar_Cushion_Shoes_Black_ID1169_01_standard.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Yoga Blocks",
+      "category": "Sports",
+      "brand": "Brand G",
+      "price": 24.99,
+      "rating": 4.3,
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0e4f46883814db9999bb20f0c9c9df0_9366/Superstar_Shoes_Black_JH9159_01_standard.jpg"
+    }
+  ],
+  "filter": {
+    "category": ["Electronics", "Footwear", "Clothing", "Health", "Accessories", "Furniture", "Home Appliances", "Sports", "Beauty"],
+    "brand": ["Brand A","Brand B","Brand C", "Brand D", "Brand E", "Brand F", "Brand G", "Brand H", "Brand I", "Brand J"]
+  }
+}
+
+

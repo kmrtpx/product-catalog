@@ -1,0 +1,14 @@
+button, h3 {
+  all: unset;
+}
+
+.accordionRoot {
+  width: 100%;
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
+  border-top: none;
+
+  & > :not(:last-child) {
+    border-bottom: 1px solid #000000;
+  }
+}

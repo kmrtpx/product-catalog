@@ -1,0 +1,68 @@
+.list {
+  text-align: center;
+  color: blue;
+  margin-bottom: 40px;
+  min-height: 40px;
+  display: grid;
+
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  grid-template-areas: none;
+
+  grid-auto-flow: row dense;
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-columns: minmax(200px, auto);
+  gap: 48px 24px;
+}
+
+.emptyBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+}
+
+// Extra Small (XS)
+@media (max-width: 575px) {
+  .list {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+}
+
+// Small (SM)
+@media (min-width: 576px) and (max-width: 767px) {
+  .list {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
+// Medium (MD)
+@media (min-width: 768px) and (max-width: 991px) {
+  .list {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+}
+
+// Large (LG)
+@media (min-width: 992px) and (max-width: 1199px) {
+  .list {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
+// Extra Large (XL)
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .list {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+}
+
+// Extra Extra Large (XXL)
+@media (min-width: 1400px) {
+  .list {
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+  }
+}

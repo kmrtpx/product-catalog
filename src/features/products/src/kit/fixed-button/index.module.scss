@@ -1,0 +1,21 @@
+.filterAndSortButtonContainer {
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 20px;
+  z-index: 5;
+  position: fixed;
+  display: none;
+}
+
+.fixedButton {
+  padding: 10px 40px;
+  background-color: #000000;
+}
+
+@media(max-width: 1200px) {
+  .filterAndSortButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
