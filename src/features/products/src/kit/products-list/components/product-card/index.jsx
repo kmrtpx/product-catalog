@@ -1,12 +1,12 @@
-import styles from './index.module.scss';
-import {Skeleton, Text} from "../../../../../../../shared/ui-kit";
-import {StarFilledIcon} from '@radix-ui/react-icons';
+import styles from './index.module.scss'
+import { Skeleton, Text } from '../../../../../../../shared/ui-kit'
+import { StarFilledIcon } from '@radix-ui/react-icons'
 
-export function ProductCard({product, loading}) {
-    return (<div className={styles.card}>
+export function ProductCard ({ product, loading }) {
+  return (<div className={styles.card}>
         {loading
-            ? <Skeleton/>
-            : <>
+          ? <Skeleton/>
+          : <>
                 <div className={styles.cardImageContainer}>
                     <img
                         src={product.imageUrl}
@@ -31,5 +31,5 @@ export function ProductCard({product, loading}) {
                     </div>
                 </div>
             </>}
-    </div>);
+    </div>)
 }
