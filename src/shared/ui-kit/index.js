@@ -1,10 +1,10 @@
-export {Text} from './text';
-export {Button} from './button';
-export {Drawer} from './drawer';
-export {Accordion} from './accordion';
-export {CheckboxGroup} from './checkbox-group';
-export {Pagination} from './pagination';
-export {ErrorMessage} from './error-message';
-export {Loader} from './loader'
-export {RangeSlider} from './range-slider'
-export {Skeleton} from './skeleton'
+export { Text } from './text'
+export { Button } from './button'
+export { Drawer } from './drawer'
+export { Accordion } from './accordion'
+export { CheckboxGroup } from './checkbox-group'
+export { Pagination } from './pagination'
+export { ErrorMessage } from './error-message'
+export { Loader } from './loader'
+export { RangeSlider } from './range-slider'
+export { Skeleton } from './skeleton'
