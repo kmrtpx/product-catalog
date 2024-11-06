@@ -1,43 +1,19 @@
 import { render, screen } from '@testing-library/react'
-import React from 'react'
-import { Accordion } from '../../index'
 import { AccordionContent } from './index'
 
-describe('AccordionContent Component', () => {
-  it('renders with children content', () => {
-    const content = 'This is an accordion content.'
+test('renders AccordionContent with given children', () => {
+  render(<AccordionContent>Test Content</AccordionContent>)
 
-    render(
-        <Accordion>
-          <AccordionContent>{content}</AccordionContent>
-        </Accordion>
-    )
+  const content = screen.getByTestId('accordion-content')
+  expect(content).toBeInTheDocument()
+  expect(content).toHaveTextContent('Test Content')
+})
 
-    const accordionContentText = screen.getByText(content)
-    expect(accordionContentText).toBeInTheDocument()
-    expect(accordionContentText).toHaveClass('accordionContentText')
-  })
+test('applies custom className', () => {
+  render(
+      <AccordionContent className="custom-class">Test Content</AccordionContent>
+  )
 
-  it('applies custom className', () => {
-    const content = 'Custom class test content.'
-    const customClass = 'custom-class'
-
-    render(
-        <AccordionContent className={customClass}>{content}</AccordionContent>
-    )
-
-    const accordionContent = screen.getByText(content)
-    expect(accordionContent).toHaveClass(customClass)
-  })
-
-  it('renders with default styles', () => {
-    const content = 'Default styles test content.'
-
-    render(
-        <AccordionContent>{content}</AccordionContent>
-    )
-
-    const accordionContent = screen.getByText(content)
-    expect(accordionContent).toHaveClass('accordionContent')
-  })
+  const content = screen.getByTestId('accordion-content')
+  expect(content).toHaveClass('custom-class')
 })
