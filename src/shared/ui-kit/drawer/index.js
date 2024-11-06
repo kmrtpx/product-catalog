@@ -1,5 +1,5 @@
-import { DrawerProvider, useDrawer } from './drawer-provider'
-import { DrawerRoot } from './drawer-root'
+import { DrawerProvider, useDrawer } from './components/drawer-provider'
+import { DrawerRoot } from './components/drawer-root'
 
 export const Drawer = Object.assign(DrawerRoot, {
   Provider: DrawerProvider,

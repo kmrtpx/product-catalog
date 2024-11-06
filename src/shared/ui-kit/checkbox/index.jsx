@@ -4,6 +4,7 @@ import classnames from 'classnames'
 import styles from './index.module.scss'
 import { CheckIcon } from '@radix-ui/react-icons'
 import { Text } from '../text'
+import PropTypes from 'prop-types'
 
 export function Checkbox ({ checked, onCheckedChange, label, className }) {
   return <label className={styles.checkboxContainer}>
@@ -18,4 +19,11 @@ export function Checkbox ({ checked, onCheckedChange, label, className }) {
         </CheckboxPrimitive.Root>
         <Text variant="m" className={styles.label}>{label}</Text>
     </label>
+}
+
+Checkbox.propTypes = {
+  checked: PropTypes.bool,
+  onCheckedChange: PropTypes.func.isRequired,
+  label: PropTypes.string.isRequired,
+  className: PropTypes.string
 }

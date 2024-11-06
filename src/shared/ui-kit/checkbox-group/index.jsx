@@ -1,17 +1,18 @@
-import React, {useState} from 'react';
-import styles from './index.module.scss';
-import {Checkbox} from "../checkbox";
+import React, { useState } from 'react'
+import styles from './index.module.scss'
+import { Checkbox } from '../checkbox'
+import PropTypes from 'prop-types'
 
-export function CheckboxGroup({options, onChange, initialValue}) {
-    const [selectedOption, setSelectedOption] = useState(initialValue);
+export function CheckboxGroup ({ options, onChange, initialValue }) {
+  const [selectedOption, setSelectedOption] = useState(initialValue)
 
-    const handleCheckboxChange = (option) => {
-        const newSelectedOption = selectedOption === option ? null : option;
-        setSelectedOption(newSelectedOption);
-        onChange(newSelectedOption);
-    };
+  const handleCheckboxChange = (option) => {
+    const newSelectedOption = selectedOption === option ? null : option
+    setSelectedOption(newSelectedOption)
+    onChange(newSelectedOption)
+  }
 
-    return (
+  return (
         <div className={styles.checkboxGroup}>
             {options.map((option) => (
                 <Checkbox
@@ -22,5 +23,11 @@ export function CheckboxGroup({options, onChange, initialValue}) {
                 />
             ))}
         </div>
-    );
+  )
+}
+
+CheckboxGroup.propTypes = {
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onChange: PropTypes.func.isRequired,
+  initialValue: PropTypes.string
 }

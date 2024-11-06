@@ -1,3 +1,3 @@
-export function Loader(){
-    return <div>Loading...</div>
+export function Loader () {
+  return <div>Loading...</div>
 }

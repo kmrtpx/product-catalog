@@ -63,5 +63,10 @@
     "prop-types": "^15.8.1",
     "react-app-rewired": "^2.2.1",
     "webpack": "^5.96.1"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ]
   }
 }

@@ -1,5 +1,5 @@
-export function ErrorMessage(error) {
-    return <div>
+export function ErrorMessage (error) {
+  return <div>
         Error: {error}
     </div>
 }
