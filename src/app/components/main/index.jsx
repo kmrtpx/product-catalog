@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useMemo, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import PropTypes from 'prop-types'
 import { loadProductsData } from './api'
 import { ProductsUI } from '../../../features/products/src'
 import { Drawer, Pagination, Loader, ErrorMessage } from '../../../shared/ui-kit'
@@ -102,15 +101,4 @@ export function Main () {
             />
         </Drawer>
     </main>
-}
-
-Main.propTypes = {
-  currentPage: PropTypes.number.isRequired,
-  filterAndSortValue: PropTypes.object.isRequired,
-  setFilterAndSortValue: PropTypes.func.isRequired,
-  loadProductsData: PropTypes.func.isRequired,
-  navigate: PropTypes.func.isRequired,
-  setProducts: PropTypes.func.isRequired,
-  setTotalItems: PropTypes.func.isRequired,
-  setError: PropTypes.func.isRequired
 }
