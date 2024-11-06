@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from 'react'
+import React, { useEffect, useState, useMemo, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { loadProductsData } from './api'
@@ -25,13 +25,13 @@ export function Main () {
     fetchProducts({ operation: 'load' })
   }, [currentPage])
 
-  const handlePageChange = (page) => {
+  const handlePageChange = useCallback((page) => {
     setCurrentPage(page)
     setProductsLoading(true)
-  }
+  }, [currentPage])
 
   const fetchProducts = ({ operation, value, field }) => {
-    const props = {
+    const args = {
       currentPage,
       currentValue: operation === 'filter'
         ? { ...filterAndSortValue, [field]: value }
@@ -42,16 +42,14 @@ export function Main () {
       setError
     }
 
-    console.log('props', props)
-
     if (operation === 'filter') {
       setProductsLoading(true)
-      setFilterAndSortValue(prev => ({ ...prev, ...props.currentValue }))
+      setFilterAndSortValue(prev => ({ ...prev, ...args.currentValue }))
     } else {
       setLoading(true)
     }
 
-    loadProductsData(props).finally(() => {
+    loadProductsData(args).finally(() => {
       setLoading(false)
       setProductsLoading(false)
     })
@@ -77,33 +75,33 @@ export function Main () {
   }
 
   return <main className={styles.main}>
-            <ProductsUI.Header itemsCount={products.items}/>
-            <ProductsUI.TopBar/>
+        <ProductsUI.Header itemsCount={products.items}/>
+        <ProductsUI.TopBar title="FILTER & SORT"/>
 
-            <section className={styles.section}>
-                <ProductsUI.FilterBox
-                    initialValue={filterAndSortValue}
-                    updateFilterValue={(field, value) => fetchProducts({ operation: 'filter', value, field })}
-                />
-                <ProductsUI.ProductsList
-                    products={products.data}
-                    loading={productsLoading}
-                />
-                <ProductsUI.FixedButton
-                    label="FILTER & SORT"
-                    onClick={openDrawer}
-                />
-            </section>
+        <section className={styles.section}>
+            <ProductsUI.FilterBox
+                initialValue={filterAndSortValue}
+                updateFilterValue={(field, value) => fetchProducts({ operation: 'filter', value, field })}
+            />
+            <ProductsUI.ProductsList
+                products={products.data}
+                loading={productsLoading}
+            />
+            <ProductsUI.FixedButton
+                label="FILTER & SORT"
+                onClick={openDrawer}
+            />
+        </section>
 
-            {renderPagination}
+        {renderPagination}
 
-            <Drawer title="FILTER & SORT">
-                <ProductsUI.FilterForm
-                    initialValue={filterAndSortValue}
-                    updateFilterValue={(field, value) => fetchProducts({ operation: 'filter', value, field })}
-                />
-            </Drawer>
-        </main>
+        <Drawer title="FILTER & SORT">
+            <ProductsUI.FilterForm
+                initialValue={filterAndSortValue}
+                updateFilterValue={(field, value) => fetchProducts({ operation: 'filter', value, field })}
+            />
+        </Drawer>
+    </main>
 }
 
 Main.propTypes = {
