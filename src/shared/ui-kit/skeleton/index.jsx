@@ -1,9 +1,9 @@
-import React from 'react';
-import classnames from 'classnames';
-import styles from './index.module.scss';
+import React from 'react'
+import classnames from 'classnames'
+import styles from './index.module.scss'
 
-export function Skeleton() {
-    return (
+export function Skeleton () {
+  return (
         <div className={styles.skeletonLoader}>
             <div className={styles.skeletonImage}></div>
             <div className={styles.container}>
@@ -19,5 +19,5 @@ export function Skeleton() {
                 </div>
             </div>
         </div>
-    );
+  )
 }

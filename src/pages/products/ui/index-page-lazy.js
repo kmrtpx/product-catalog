@@ -1,3 +1,3 @@
-import { lazy } from 'react';
+import { lazy } from 'react'
 
-export const ProductsPageLazy = lazy(() => import('./index'));
+export const ProductsPageLazy = lazy(() => import('./index'))
